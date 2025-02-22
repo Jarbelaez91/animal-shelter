@@ -116,3 +116,127 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+/* login*/
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-title{
+    text-align: center;
+}
+
+.form-lines{
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.inputs{
+    height: 30px;
+    width: 300px;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    text-align: end;
+
+}
+
+.form-container-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-container-container{
+    margin: 100px;
+    border: 2px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 50px;
+}
+
+.submit-button{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+
+   
+}
+
+.submit-button-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.submit-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+/*About*/
+.about-container-container{
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+.about-container{
+    border: 2px solid black;
+    margin: 20px;
+    background-color: pink;
+    width: 50%;
+    
+}
+
+.about-title{
+    text-align: center;
+}
+
+.about-paragraph-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.about-paragraph{
+    width: 50%;
+    font-size: 20px;
+}
+.adoption-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.adoption-details-title{
+    text-align: center;
+}
+
+.adoption-numbers{
+    font-size: 20px;
+    width: 50%;
+    
+}
